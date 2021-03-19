@@ -31,6 +31,7 @@ img {
     margin-top: 40px;
     margin-left: 320px;
 }
+
 .uvod {
 background-color:blanchedalmond;
 background: linear-gradient(45deg, rgba(128, 32, 32, 0.89), lightcoral  )
@@ -39,4 +40,12 @@ background: linear-gradient(45deg, rgba(128, 32, 32, 0.89), lightcoral  )
 h2 {
     font-size: 30px;
     color:lightcoral;
+}
+.kontakt img {
+    margin-left:0px;
+}
+
+.Freepik {
+    font-size: 15px;
+    margin-top: 150px;
 }
