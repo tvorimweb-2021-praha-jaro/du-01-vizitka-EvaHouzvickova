@@ -19,13 +19,17 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    padding-bottom:30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .uvod img {
     border-radius: 50%;
-    margin-top: 40px;
-    margin-left: 39%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 40px;
 }
 
 .uvod {
@@ -51,7 +55,7 @@ li {
     padding: 25px;
 }
 
-.Freepik {
+.freepik {
     font-size: 15px;
     margin-top: 300px;
     text-align: center;
