@@ -50,17 +50,14 @@ h2 {
     color:lightcoral;
 }
 
-h3 {
-    font-size: 20px;
-}
-.kontakt ul {
+#kontakt ul {
     list-style: none;
     display: flex;
     background-color:rgb(226, 199, 199);
     border-radius: 7px;
 }
 
-.kontakt li {
+#kontakt li {
     margin-right: 40px;
     margin-left: 50px;
     padding: 25px;
@@ -108,9 +105,11 @@ nav {
 article img {
     float: left;
     margin-right: 1rem;
+    border-radius: 7px;
 }
 
 h3 {
+    font-size: 20px;
     clear: both;
     padding: 1.5rem 0 0 0;
 }
