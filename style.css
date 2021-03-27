@@ -2,6 +2,9 @@
 - Uprav velikost písma, zarovnání textu
 - Přidej si vlastní písmo např. z Google Fonts
 - Další vlastnosti dle vlastního uvážení*/
+html {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0 auto;
@@ -30,13 +33,16 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: 5px solid rgba(245, 237, 237, 0.993);
    
 }
 
 .uvod {
-border-radius: 0 0 7px 7px;
-background: linear-gradient(45deg, rgba(116, 29, 29, 0.89), rgba(240, 128, 128, 1)  );
-padding:40px 40px 10px 40px;
+    border-radius: 7px;
+    background: linear-gradient(45deg, rgba(116, 29, 29, 0.473), rgba(240, 128, 128, 0.555)), url(obr/brooklyn.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding:40px 40px 10px 40px;
 }
 
 h2 {
@@ -44,14 +50,17 @@ h2 {
     color:lightcoral;
 }
 
-ul {
+h3 {
+    font-size: 20px;
+}
+.kontakt ul {
     list-style: none;
     display: flex;
     background-color:rgb(226, 199, 199);
     border-radius: 7px;
 }
 
-li {
+.kontakt li {
     margin-right: 40px;
     margin-left: 50px;
     padding: 25px;
@@ -65,4 +74,47 @@ footer {
 
 a {
     color:lightcoral;
+}
+
+nav ul {
+    list-style: none;
+    background-color:rgb(226, 199, 199);
+    border-radius: 7px;
+    padding-left: 0; /*vynuluje místo pro odrážku, která není vidět*/
+}
+
+nav a {
+    color:#555;
+    display: inline-block;
+    padding: 0.5rem 5rem;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:hover {
+    color:coral;
+    text-decoration: underline;
+}
+
+nav {
+    position: sticky;
+    top:0;
+    text-align: center;
+}
+
+article img {
+    float: left;
+    margin-right: 1rem;
+}
+
+h3 {
+    clear: both;
+    padding: 1.5rem 0 0 0;
+}
+
+#cestovani {
+    display: flow-root;
 }
