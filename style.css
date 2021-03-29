@@ -87,7 +87,7 @@ nav a {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a:hover {
