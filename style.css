@@ -118,6 +118,10 @@ h3 {
     display: flow-root;
 }
 
-section {
-    margin-top: 0.5rem;
+.prazdne-misto {
+    margin-bottom: 2.5rem;
+}
+
+.neco-malo-o-mne {
+    margin-bottom: -2.5rem;
 }
