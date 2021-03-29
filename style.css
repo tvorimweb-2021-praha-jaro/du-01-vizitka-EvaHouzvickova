@@ -11,8 +11,8 @@ body {
     max-width: 900px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color:#f5f5f5;
-    color: #555;
+    background-color:rgba(245,245,245);
+    color: rgba(85,85,85);
     text-align:justify;
     line-height: 1.5;
     padding-right: 40px;
@@ -52,7 +52,7 @@ h2 {
 .kontakt ul {
     list-style: none;
     display: flex;
-    background-color:rgb(226, 199, 199);
+    background-color:rgba(226, 199, 199);
     border-radius: 7px;
 }
 
@@ -74,7 +74,7 @@ a {
 
 nav ul {
     list-style: none;
-    background-color:rgb(226, 199, 199);
+    background-color:rgba(226, 199, 199);
     border-radius: 7px;
     padding-left: 0; /*vynuluje místo pro odrážku, která není vidět*/
 }
@@ -116,4 +116,8 @@ h3 {
 
 .cestovani {
     display: flow-root;
+}
+
+section {
+    margin-top: 0.5rem;
 }
