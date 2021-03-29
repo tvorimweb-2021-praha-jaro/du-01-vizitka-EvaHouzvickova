@@ -49,20 +49,20 @@ h2 {
     margin-bottom: 0px;
 }
 
-#kontakt ul {
+.kontakt ul {
     list-style: none;
     display: flex;
     background-color:rgb(226, 199, 199);
     border-radius: 7px;
 }
 
-#kontakt li {
+.kontakt li {
     margin-right: 40px;
     margin-left: 50px;
     padding: 25px;
 }
 
-footer {
+.freepik {
     font-size: 15px;
     margin-top: 300px;
     text-align: center;
@@ -114,6 +114,6 @@ h3 {
     margin-top: 0px;
 }
 
-#cestovani {
+.cestovani {
     display: flow-root;
 }
